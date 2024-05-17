@@ -1,0 +1,59 @@
+name: flutter_app
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+  provider: ^6.0.3
+  sqflite: ^2.0.0+4
+  path_provider: ^2.0.11
+  path: ^1.8.0
+  flutter_svg: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/todo_mockup.png
+    - assets/images/figma_logo.png
+    - assets/images/registration.png
+    - assets/images/dashboard.png
+    - assets/images/login.png
+    - assets/images/splashscreen.png
+    - assets/images/mockup_todo_app_1.png
+    - assets/images/daily_tasks_1.png
+    - assets/vectors/undraw_access_account_re_8_spm_2_x2.svg
+    - assets/vectors/undraw_mobile_ux_re_59_hr_11_x2.svg
+    - assets/vectors/vector_x2.svg
+    - assets/vectors/shape_x2.svg
+    - assets/vectors/undraw_mobile_ux_re_59_hr_1_x2.svg
+    - assets/vectors/vector_2_x2.svg
+    - assets/vectors/vector_3_x2.svg
+    - assets/vectors/shape_3_x2.svg
+    - assets/vectors/vector_1_x2.svg
+    - assets/vectors/vector_10_x2.svg
+    - assets/vectors/vector_4_x2.svg
+    - assets/vectors/undraw_access_account_re_8_spm_1_x2.svg
+    - assets/vectors/shape_2_x2.svg
+    - assets/vectors/vector_5_x2.svg
+    - assets/vectors/vector_8_x2.svg
+    - assets/vectors/vector_11_x2.svg
+    - assets/images/ellipse_479.jpeg
+    - assets/vectors/vector_6_x2.svg
+    - assets/vectors/group_162_x2.svg
+    - assets/vectors/vector_9_x2.svg
+    - assets/vectors/plus_circle_x2.svg
+    - assets/vectors/vector_7_x2.svg
+    - assets/vectors/shape_1_x2.svg
